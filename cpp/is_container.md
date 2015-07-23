@@ -10,7 +10,7 @@ template<
     typename = typename T::iterator,
     typename = typename T::const_iterator,
     typename = typename T::difference_type,
-    typename = T::size_type>
+    typename = typename T::size_type>
 void test(T const& t) {
     std::cout << "container type" << std::endl;
 }
