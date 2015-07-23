@@ -1,2 +1,3 @@
 # trivial-grimoire
-C++ trivial knowledge
+C++に関して僕が気になって調べたことなどをまとめています.  
+基本的に自分用の備忘録です.  
