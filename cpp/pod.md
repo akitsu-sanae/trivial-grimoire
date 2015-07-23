@@ -1,0 +1,50 @@
+## PODについて
+N4296の9 Classesを参考にしました.
+### POD classとは
+POD structもしくはPOD unionのことである.  
+
+### POD structとは
+以下の条件をすべて満たせばPOD structである.  
+* union classではない
+* trivial classである
+* standard-layout classである
+* 全ての非静的メンバがPOD classかその配列である
+
+### POD unionとは
+以下の条件をすべて満たせばPOD unionである.  
+* union classである
+* trivial classである
+* standard-layout classである
+* 全ての非静的メンバがPOD classかその配列である
+
+### trivial classとは
+以下の条件をすべて満たせばtrivial classである.  
+* デフォルトコンストラクタを持つ
+* trivialでないデフォルトコンストラクタを持たない
+* trivially copyableである
+
+### trivially copyableとは
+以下の条件をすべて満たせばtrivially copyableである.  
+* trivialでないコピーコンストラクタを持たない
+* trivialでないムーブコンストラクタを持たない
+* trivialでないコピー代入演算子を持たない
+* trivialでないムーブ代入演算子を持たない
+* trivialなデストラクタを持つ
+
+### standard-layout classとは
+以下の条件をすべて満たせばstandard-layoutである.  
+* 仮想関数や仮想基底クラスを持たない
+* 全ての非静的メンバのアクセス指定子が同じである
+* 全ての基底クラスがstandard-layoutである
+* 与えられた型のサブオブジェクトを基底クラスにするのはせいぜい一個まで
+* 全ての非静的メンバは, そのクラスとそのクラスではじめに宣言された基底クラスにある
+* 全ての非静的メンバがstandard-layout classかその配列か参照である
+* 後に示す集合M(S)の要素を基底クラスにしない
+
+### M(X)とは
+standard-layoutで示唆した集合M(X)は以下のように定義される
+[[ここにM(X)の定義を書く]]
+
+### 例
+
+
