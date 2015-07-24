@@ -1,5 +1,5 @@
 ## PODについて
-N4296の9 Classesを参考にしました.
+N4140の9 Classesを参考にしました.
 ### POD classとは
 POD structもしくはPOD unionのことである.  
 
