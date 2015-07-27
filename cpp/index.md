@@ -3,4 +3,4 @@
 * [POD型とそのまわりについての定義](pod.md)
 * [Iteratorまわりについて](iterator.md)
 * [literal型について](literal_type.md)
-
+* [Aggregateについて](aggregates.md)
