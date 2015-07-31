@@ -3,11 +3,11 @@
 
 
 ## 導出
-まづ, 物質波@raw{|latex| \psi}が従うべき方程式@raw{|latex| \hat{L}\psi }の条件は  
-* @raw{|latex| \hat{L} }は線型でなくてはならない
-* @raw{|latex| \hat{L} }は時間微分と空間微分「で表せられる
-* 波の性質は勿論, 粒子の性質も導ける(@raw{|latex| E = \frac{p^2}{2m}})
+まづ, 物質波$\psi$が従うべき方程式$\hat{L}\psi$の条件は  
+* $\hat{L}$は線型でなくてはならない
+* $\hat{L}$は時間微分と空間微分で表せられる
+* 波の性質は勿論, 粒子の性質も導ける($E = \frac{p^2}{2m}$など)
 である.  
-ためしに@raw{|latex| \psi (x,t) = A\sin(kx -\omega t + \delta)}とおく.
+ためしに$\psi (x,t) = A\sin(kx -\omega t + \delta)$とおく.
 
 
