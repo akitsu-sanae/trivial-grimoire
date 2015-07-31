@@ -3,7 +3,7 @@
 
 
 ## 導出
-```
+```math
 まづ, 物質波$\psi$が従うべき方程式$\hat{L}\psi$の条件は
 \begin{enumerator}
 \item $\hat{L}$は線型でなくてはならない
