@@ -85,6 +85,7 @@ return r;
 * a >= bは文脈上boolに変換可能な型をかえし, !(a < b)と同等の操作である
 * a <= bは文脈上boolに変換可能な型をかえし, !(a > b)と同等の操作である
 
-
+### 参考
+* [iterator traitsについて](iterator_traits.md)
 
 
