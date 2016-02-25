@@ -15,14 +15,14 @@
 Iteratorには以下の四種類がある.  
 * InputIterator ... 入力用のiterator
 * OutputIterator ... 出力用のiterator
-* ForwardIterator ... 後ろの要素にのみ移動できるiterator, InputIteratorとOutputIteratorのsuperset
+* ForwardIterator ... 後ろの要素にのみ移動できるiterator, InputIteratorのsuperset
 * BindirectionalIterator ... 隣の要素に移動できるiterator, ForwardIteratorのsuperset
 * RandomAccessIterator ... 自由に移動できるiterator, BindirectionalIteratorのsuperset
 
 ### InputIteratorの要求
 以下の条件をすべて満たせばInputiteratorである.  
 要素型Tに対する対象の型Xとその変数a, bについて
-* XがIteratorの要求を満たす
+ XがIteratorの要求を満たす
 * XがEqualiyComparableを満たす
 * a != bはbool型を返し, その結果は!(a == b)に等しい（pre: aとbについての===は定義されている）
 * *aはTに変換可能である（pre: aはdereferenceable, (void)*aと*aは*aと同等, a == bかつaとbについての==が定義されていれば*aは*bと同等である）
