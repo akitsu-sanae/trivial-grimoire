@@ -5,4 +5,5 @@
 * [literal型について](literal_type.md)
 * [Aggregateについて](aggregates.md)
 * [non-template-parameterについて](non-type-template-parameter.md)
+* [その他](others.md)
 
