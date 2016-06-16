@@ -18,5 +18,5 @@ main.cpp:7:48: error: use of 'x' before deduction of 'auto'
      if (auto&& x = std::make_shared<Hoge>() && x.fuga()) {}
 ```
 と怒られる。  
-つまりxの方が推論できる前にxを使用してしまってるので駄目ということらしい  
+つまりxの型が推論できる前にxを使用してしまってるので駄目ということらしい  
 
