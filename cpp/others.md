@@ -20,3 +20,14 @@ main.cpp:7:48: error: use of 'x' before deduction of 'auto'
 と怒られる。  
 つまりxの型が推論できる前にxを使用してしまってるので駄目ということらしい  
 
+### ラムダ式でvariadic template
+
+```
+[&](auto&& ... args) {
+    return f(args ...);
+}
+```
+
+みたいに出来る。  
+今まで知らなかった。  
+
