@@ -1,3 +1,3 @@
 # 線形代数
 
-* [定義](definition.pdf)
+* [定義](definitions.pdf)

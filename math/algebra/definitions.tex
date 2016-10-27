@@ -2,7 +2,9 @@
 
 \begin{document}
 
-\section {Axiom of Distance}
+\section {距離の公理}
+
+集合$A$の任意の元$x$に対して実数$||x||$が存在し
 
 \begin{itemize}
   \item $ \|x\| \leq 0 $
@@ -11,5 +13,36 @@
   \item $ \|ax\| = \|a\| \|x\| (a \in R) $
 \end{itemize}
 
+が成立するとき，$||x||$を\textbf{ノルム(norm)}といい，$A$を\textbf{距離空間(metric space)}という．
+
+\section {行列}
+
+\subsection{行列の積}
+
+$A$が$(l, m)$型で$(i, j)$成分が$a_{i, j}$であるような行列，
+$B$が$(m, n)$型で$(i, j)$成分が$b_{i, j}$であるような行列であるとすると，
+その積$AB$の$(i, j)$成分は
+$$
+\sum_{k=1}^{m}a_{ik}b_{kj}
+$$
+
+\subsection{逆行列}
+$AX = I$かつ$XA = I$を満たす行列$X$を$A$の\textbf{逆行列}といい，$A^{-1}$で表す．
+
+\subsection{正則}
+行列$A$が逆行列を持つとき$A$は\textbf{正則(regular)}であるという．
+
+\subsection{対称行列}
+正方行列$A$の成分を$(i, j)$成分を$a_{i, j}$とすると，
+$a_{i, j} = a_{j, i}$が成り立つとき$A$を\textbf{対称行列(Symmetric Matrix)}という．
+
+\subsection{交代行列}
+正方行列$A$の成分を$(i, j)$成分を$a_{i, j}$とすると，
+$a_{i, j} = -a_{j, i}$が成り立つとき$A$を\textbf{交代行列(Skew-Symmetric Matrix)}という．
+
+\subsection{直行行列}
+実行列$A$が$A^tA = I$を満たすとき$A$を\textbf{直行行列(Orthogonal Matrix)}という．
+
 
 \end{document}
+

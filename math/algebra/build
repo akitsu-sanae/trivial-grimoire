@@ -1,0 +1,8 @@
+#! /bin/sh
+
+platex definitions.tex
+dvipdf definitions.dvi
+rm definitions.log
+rm definitions.aux
+rm definitions.dvi
+
